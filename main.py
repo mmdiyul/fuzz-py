@@ -366,6 +366,3 @@ def bmr():
         resp['result'] = result
         return jsonify(resp)
 
-
-if __name__ == '__main__':
-    app.run()
